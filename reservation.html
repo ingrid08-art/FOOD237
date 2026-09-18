@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food237</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <header>
+       
+        <div class="tete">
+        
+        <img src="Images/logo.jpg" alt="Logo du restaurant" class="logo"/>
+        <h1 class="name">FOOD237</h1>
+        </div>
+        
+<button class="menu-toggle">≡</button>  
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html" class="active">Réservation et renseignements</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section class="res-head">
+        <h1>Contactez-nous</h1>
+        <p>Une préoccupation? Une réservation ? Écrivez-nous directement via le formulaire.</p>
+    </section>
+    <main class="contenu">
+     <div class="reservation-info">
+            <h2>Nos Coordonnées</h2>
+            <p>N'hésitez pas à nous écrire en cas de soucis ou besoin d'informations. Notre équipe vous répondra dans les plus brefs délais.</p>
+            
+    <div class="renseignements">
+                <span class="info-icon">📍</span>
+                <div>
+                    <h3>Localisation</h3>
+                    <p>Yaoundé, Cameroun</p>
+                </div>
+            </div>
+            <div class="renseignements">
+                <span class="info-icon">📧</span>
+                <div>
+                    <h3>Email Professionnel</h3>
+                    <p>contact@Food237.com</p>
+                </div>
+            </div>
+            <div class="renseignements">
+                <span class="info-icon">🕒</span>
+                <div>
+                    <h3>Heures de Disponibilité</h3>
+                    <p>Lundi - Samedi : 24h/24h</p>
+                    <p>Dimanche: à partir de 12h brunch.</p>
+
+                </div>
+            </div>
+            </div>
+            <div class="reservation-form">
+            <h2>Faites une réservation.</h2>
+            <form action="#" method="POST">
+                
+                <div class="form-reservation">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
+
+                <div class="form-reservation">
+                    <label for="email">Adresse Email</label>
+                    <input type="email" id="email" name="email" placeholder="votre.food237@exemple.com" required>
+                </div>
+
+                <div class="form-reservation">
+                    <label for="Réservation">Saisissez votre demande de réservation.</label>
+                    <input type="text" id="subject" name="subject" placeholder="Ex: Faire une réservation" required>
+                </div>
+
+                <div class="form-reservation">
+                    <label for="message">Votre Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Écrivez votre message ici..." required></textarea>
+                </div>
+
+                <button type="submit" class="bouton-submit">Envoyer le message</button>
+            </form>
+            </div>
+            </main>
+            <footer>
+        <p>&copy;FOOD237-Tous droits résesrvés.</p>
+    </footer>
+    <button id="retour-haut">↑</button>
+<script src="script.js"></script>
+</body>
+</html>

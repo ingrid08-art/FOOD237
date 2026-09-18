@@ -1,0 +1,457 @@
+header{
+    display: flex;
+    background-size: cover;
+    background-color:#1d2432;
+    
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 5px 5%;
+    }
+.logo{
+     size: 3px;
+    height: 60px;
+    width: auto;
+    border-radius: 8px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    
+body{
+    line-height: 1.6;  
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav ul li{
+    margin-left: 10px;
+}
+
+.reserver{
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color:#e63946;
+}
+.reserver:hover{
+    background-color: #ffb703;
+    color: #121824;
+}
+
+    
+
+
+
+footer{
+    background-color:#0b0f19;
+    justify-content: center;
+    text-align: center;
+    color: #94a3b8;
+     padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.hero{
+    background-image:linear-gradient(rgba(18, 24, 36, 0.75), rgba(18, 24, 36, 0.75)), url(Images/image2.jpg);
+     padding: 100px 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.hero-reserva{
+    max-width: 800px;
+}
+.hero h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    color: #ffb703;
+}
+.hero P{
+    font-size: 18px;
+    color:#f8f9fa;
+    margin-bottom: 30px;
+}
+
+nav ul li a{
+    justify-content: space-between;
+    display: block;
+     
+    padding: 10px 18px;
+    color:#f8f9fa;
+    text-decoration: none;
+    font-weight: 500;
+    
+    
+}
+    nav ul li a:hover, nav ul li a.active{
+        background-color:#e63946;
+        color:#ffffff;
+
+    }
+    
+
+
+a{
+    text-decoration: none;
+}
+.name{
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color:#ffb703;
+
+}
+.repas{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 60px 0 30px 0;
+    position: relative;
+    color:black;
+}
+.repas::after{
+    content:'' ;
+    display: block;
+    width: 50px;
+    height: 4px;
+    margin: 10px auto 0 auto;
+    border-radius: 2px;
+   background-color: #e63946;
+
+}
+.contenu{
+    padding: 0 5%;
+}
+.plats{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.plat{
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    background-color:#1d2432;
+}
+.plat-image{
+    width: 90%;
+    height: 400px;
+    border-radius: 8Spx;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.plat-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.plat h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:#ffb703;
+}
+.plat p{
+     margin-bottom: 20px;
+     font-size: 20px;
+     color: #cbd5e1;
+}
+.tete{
+    display: flex;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 60px 0 30px 0;
+    gap: 15px;
+}
+.contenu p{
+
+}
+.saveurs {
+    color: black;
+    background-color: transparent;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+.menu{
+    background-color: aliceblue;
+     padding: 50px 3%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 60px 0 30px 0;
+    position: relative;
+    color: black;
+}
+.menu::after{
+    content:'' ;
+    display: block;
+    width: 50px;
+    height: 4px;
+    margin: 10px auto 0 auto;
+    border-radius: 2px;
+   background-color: yellow;
+
+}
+.menu p {
+    text-align: center;
+    background-color: whitesmoke;
+}
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu-contenu {
+    background-color: beige;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    position: relative;
+    }
+    .menu-contenu img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    }
+    .media-text {
+    padding: 20px;
+    }
+    .media-text h3 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5px;
+    }
+    .res-head {
+    background-color: beige;
+    color: black;
+    text-align: center;
+    padding: 60px 5%;
+    border-top: 1px solid #1E293B; 
+}
+.res-head h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.res-head p{
+    color: red;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.reservation-info {
+    flex: 1;
+    background-color:white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px  rgba(0, 0, 0, 0.05);
+    }
+.reservation-info h2 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 15px;
+}
+.reservation-info p {
+    font-size: 15px;
+    color: inherit;
+    margin-bottom: 30px;
+}
+.renseignements{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.info-icon {
+    font-size: 24px;
+    background-color: white; 
+    padding: 10px;
+    border-radius: 8px;
+}
+.renseignements h3 {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.info-item p {
+    font-size: 14px;
+    color:inherit;
+}
+.reservation-form {
+    flex:1.5;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+     border: 1px solid rgba(255, 255, 255, 0.05);
+}
+    
+
+
+.reservation-form h2 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+.form-reservation{
+    margin-bottom: 20px;
+}
+
+.form-reservation label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: inherit;
+    margin-bottom: 8px;
+}
+.form-reservation input, 
+.form-reservation textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid  white;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 14px;
+    color: black;
+    background-color:rgba(0, 102, 255, 0.1);
+}
+.form-reservation input:focus, 
+.form-reservation textarea:focus {
+    outline: none;
+    border-color: blue;
+    background-color: whitesmoke;
+    box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.1);
+}
+
+.bouton-submit {
+    width: 60%;
+    border: none;
+    font-size: 16px;
+    padding: 14px;
+    cursor:auto;
+    background-color:  #e63946;
+    color: white;
+}
+.contenu {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 5%;
+    display: flex;
+    gap: 50px;
+}
+
+    .cont{
+        max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 5%;
+    }
+    .menu-toggle{
+        display: none;
+    }
+    
+@media (max-width:850px) {
+    
+.menu-toggle {
+        display: block;
+    }
+
+    
+    nav ul {
+        display: none;
+    }
+    nav ul.nav-ouverte {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    header {
+    flex-wrap: wrap;
+}
+nav {
+    width: 100%;
+    order: 3;
+}
+.plats {
+        grid-template-columns: 1fr;
+    }
+    }
+    
+
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    
+    nav ul {
+        display: none;
+    }
+    nav ul.nav-ouverte {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    header {
+    flex-wrap: wrap;
+}
+nav {
+    width: 100%;
+    order: 3;
+}
+    }
+
+   #retour-haut {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #1d2432;
+    color: #ffb703;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+#retour-haut.visible {
+    display: block;
+}
+@media (max-width: 500px) {
+    .plats {
+        grid-template-columns: 1fr;
+    }
+}
