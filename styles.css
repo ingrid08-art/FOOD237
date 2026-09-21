@@ -405,6 +405,9 @@ nav {
 .plats {
         grid-template-columns: 1fr;
     }
+    .reservation-form{
+       grid-template-columns: 1fr;  
+    }
     }
     
 
@@ -455,3 +458,10 @@ nav {
         grid-template-columns: 1fr;
     }
 }
+@media (max-width:260px){
+     .reservation-form{
+       grid-template-columns: 1fr;  
+    }
+    }
+    
+
